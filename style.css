@@ -1,0 +1,131 @@
+body {
+   font-family: Helvetica; 
+   font-size: 22px;
+   color:seashell !important;
+   background-color: black;
+   opacity: 0.9;
+}
+
+header {
+  height: 69px;
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  display: inline-block;
+  border-bottom: 1px solid seashell;
+  top: 0px;
+}
+
+/*nav section*/
+
+header img {
+  height: 50px;
+  padding: 10px;
+  float: left;
+  opacity: .7;
+}
+
+ul {
+list-style-type: none;  
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+li {
+float: right;
+}
+
+li a {
+color: seashell;
+display: block;
+text-align: center;
+padding: 20px;
+opacity: .7;
+}
+
+/*Mission */
+
+#Mission-background {
+background-image: url(resources/Photos/img-mission-background.jpg);
+width: 1200px;
+height: 700px;
+background-size: cover;
+margin: 40px auto;
+background-position: center;
+display: flex;
+}
+
+
+#Mission {
+width: 100%;
+background-color: black;
+text-align: center;
+margin: auto;
+}
+
+
+/*Tea*/
+#tea-month {
+text-align: center;
+opacity: .8;
+width:1000px auto;
+}
+
+#tea-photos {
+  display: inline-flex;
+  max-width: 1000px auto;
+  height: auto;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+#tea img {
+  height: 200px;
+  width: 300px;
+  padding: 10px 10px;
+
+}
+
+/* Locations*/
+
+#background-location {
+background-image: url(resources/Photos/img-locations-background.jpg);
+height: 500px;
+background-position: center;
+background-size: cover;
+display: flex;
+max-width: 1200px;
+align-items: center;
+justify-content: center;
+margin: 15px auto 0px auto;
+}
+
+#Locations {
+text-align: center;
+color: seashell;
+}
+
+#item-loc {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  margin: 15px 20px;
+}
+
+
+/*contact and copyright*/
+#contact {
+  text-align: center;
+  height: 200px;
+  opacity: .7;
+}
+
+footer {
+  padding: 20px;
+  opacity: .6;
+}
